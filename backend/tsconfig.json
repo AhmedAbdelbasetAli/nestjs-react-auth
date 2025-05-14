@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+    
+      "declaration": true,
+      "removeComments": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "target": "es2021",
+      "module": "NodeNext",
+      "moduleResolution": "NodeNext",
+      "importHelpers": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "typeRoots": ["./node_modules/@types", "./src/types"],
+      "types": ["node", "jest"], 
+      "isolatedModules": true,  
+      
+    },
+    "exclude": ["test", "**/*.spec.ts"],
+    "include": ["**/*"]
+  }

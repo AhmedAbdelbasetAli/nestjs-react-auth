@@ -1,0 +1,9 @@
+{
+    "projectDirectory": "src",
+    "sourceRoot": "src",
+    "collection": "@nestjs/schematics",
+    "compilerOptions": {
+      "transpileOnly": false,
+      "tsConfigPath": "tsconfig.build.json"
+    }
+  }
